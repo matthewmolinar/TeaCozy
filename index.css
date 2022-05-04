@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+/* HEADER */
+
+header {
+    display: inline-flex;
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 9px 10px;
+    border-bottom: 1px solid rgba(255, 245, 238, 0.5);
+    align-items: center;
+}
+
+nav {
+    margin-left: 50%;
+    margin-right: 10px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+    color: rgba(255, 245, 238)
+}
+
+/* HERO */
+
+main {
+    position: relative;
+    top: 50px;
+    min-height: 700px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: inline-flex;
+    background-image: url("src/images/img-mission-background.webp");
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    min-height: 700px;
+    width: 100%;
+    flex-basis: auto;
+}
+
+.hero-mission {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    color: rgba(255, 245, 238);
+    justify-content: center;
+    align-items: center;
+}
+
+h2,
+h4 {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* FEATURES */
+
+
+
+
